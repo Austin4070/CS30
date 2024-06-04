@@ -31,7 +31,7 @@ public class GamePanel extends JPanel {
         });
     }
 
-    @Override
+    @Override //instructs the compiler that you intend to override a method in the superclass
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.BLUE);
